@@ -1,0 +1,20 @@
+{
+    "name": "harsha/admin-user-import",
+    "version": "1.0.0",
+    "description": "It handles in importing the admin user data",
+    "type": "magento2-module",
+    "require": {
+        "php": "~8.1.0"
+    },
+    "license": [
+        "proprietary"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Harsha\\AdminUserImport\\": ""
+        }
+    }
+}

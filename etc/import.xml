@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_ImportExport:etc/import.xsd">
+    <entity name="admin_users" label="Admin Users" model="Harsha\AdminUserImport\Model\Import\AdminUsers" behaviorModel="Harsha\AdminUserImport\Model\Source\Import\Behavior\NewBehavior" />
+</config>
